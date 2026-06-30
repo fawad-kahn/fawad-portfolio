@@ -1551,35 +1551,6 @@ section {
     margin-top: 1rem;
 }
 
-.form-buttons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    flex-wrap: wrap;
-}
-
-.form-buttons .btn {
-    flex: 1;
-    min-width: 150px;
-    justify-content: center;
-}
-
-.btn-whatsapp {
-    background: linear-gradient(135deg, #25d366, #128c7e);
-    color: white;
-    border: 2px solid #25d366;
-    text-decoration: none;
-    display: inline-flex;
-}
-
-.btn-whatsapp:hover {
-    background: linear-gradient(135deg, #128c7e, #075e54);
-    border-color: #25d366;
-    box-shadow: 0 0 30px rgba(37, 211, 102, 0.3);
-    color: white;
-    transform: translateY(-2px);
-}
-
 .btn-loader,
 .btn-success {
     display: none;
@@ -2051,15 +2022,6 @@ section {
 
     .floating-card {
         display: none;
-    }
-
-    .form-buttons {
-        flex-direction: column;
-    }
-
-    .form-buttons .btn {
-        width: 100%;
-        flex: unset;
     }
 }
 

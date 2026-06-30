@@ -378,43 +378,6 @@ contactForm.addEventListener("submit", async (e) => {
 });
 
 // ============================================
-// WHATSAPP DIRECT MESSAGE
-// ============================================
-const whatsappLink = document.getElementById("whatsappLink");
-const phoneNumber = "+923315348543";
-
-whatsappLink.addEventListener("click", (e) => {
-  const name = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const message = document.getElementById("message").value.trim();
-
-  // If message is filled, open WhatsApp with pre-filled message
-  if (message) {
-    let whatsappMessage = "";
-
-    if (name) {
-      whatsappMessage += `*From:* ${name}\n`;
-    }
-    if (email) {
-      whatsappMessage += `*Email:* ${email}\n`;
-    }
-    if (whatsappMessage) {
-      whatsappMessage += `\n`;
-    }
-    whatsappMessage += message;
-
-    const encodedMessage = encodeURIComponent(whatsappMessage);
-    const waUrl = `https://wa.me/923315348543?text=${encodedMessage}`;
-    window.open(waUrl, "_blank");
-    e.preventDefault();
-  } else {
-    // If no message, just open WhatsApp
-    window.open(`https://wa.me/923315348543`, "_blank");
-    e.preventDefault();
-  }
-});
-
-// ============================================
 // ANIMATED COUNTERS
 // ============================================
 function animateCounter(el) {
