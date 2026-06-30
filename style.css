@@ -1668,6 +1668,16 @@ section {
     font-size: 0.9rem;
 }
 
+.footer-contact a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: var(--primary);
+}
+
 .footer-contact i {
     color: var(--primary);
     font-size: 0.9rem;
