@@ -38,6 +38,17 @@ const projectsData = [
     github: "https://github.com/fawad-kahn/swiggy-clone",
     demo: "",
   },
+  {
+    id: 4,
+    title: "Brightly",
+    description:
+      "This landing page is designed to present a business or service in a clean and professional way. It features a responsive layout with sections for the hero, categories, services, about, contact, and footer, making it easy for visitors to explore information.",
+    image: "./brightly.png",
+    category: "landing",
+    technologies: ["HTML", "CSS"],
+    github: "https://github.com/fawad-kahn/brightly-business",
+    demo: "https://fawad-kahn.github.io/brightly-business/",
+  },
   //   {
   //     id: 4,
   //     title: "Inventory Management",
