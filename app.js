@@ -14,7 +14,7 @@ const projectsData = [
     category: "ecommerce",
     technologies: ["React", "Tailwind"],
     github: "https://github.com/fawad-kahn/grocify",
-    demo: "",
+    demo: "https://my-grocify.netlify.app/",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const projectsData = [
     category: "web",
     technologies: ["React", "Tailwind"],
     github: "https://github.com/fawad-kahn/swiggy-clone",
-    demo: "",
+    demo: "https://swiggyclone-ui.netlify.app/",
   },
   {
     id: 4,
