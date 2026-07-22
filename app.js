@@ -17,6 +17,17 @@ const projectsData = [
     demo: "https://my-grocify.netlify.app/",
   },
   {
+    id: 5,
+    title: "Medical Landing Page",
+    description:
+      "Developed a fully responsive medical landing page using React.js, Vite, and Tailwind CSS. Built reusable React components to improve code maintainability and scalability.",
+    image: "./medical.png",
+    category: "landing",
+    technologies: ["React.js", "Vite", "Tailwind CSS"],
+    github: "https://github.com/fawad-kahn/medical-landing-page#",
+    demo: "https://healthcare-ui.netlify.app/",
+  },
+  {
     id: 2,
     title: "Savory Kitchen",
     description:
@@ -49,30 +60,19 @@ const projectsData = [
     github: "https://github.com/fawad-kahn/brightly-business",
     demo: "https://fawad-kahn.github.io/brightly-business/",
   },
+  // {
+  //   id: 6,
+  //   title: "Finance Tracker",
+  //   description:
+  //     "Web application for tracking personal income and expenses with budgeting and data visualization.",
+  //   image: "./assets/finance.jpg",
+  //   category: "web",
+  //   technologies: ["React", "Chart.js", "Node.js"],
+  //   github: "",
+  //   demo: "",
+  // },
   //   {
-  //     id: 4,
-  //     title: "Inventory Management",
-  //     description:
-  //       "Desktop application for managing inventory in small businesses with product tracking and stock alerts.",
-  //     image: "./assets/inventrymanagement.svg",
-  //     category: "web",
-  //     technologies: ["C#", "SQL Server"],
-  //     github: "",
-  //     demo: "",
-  //   },
-  //   {
-  //     id: 5,
-  //     title: "Finance Tracker",
-  //     description:
-  //       "Web application for tracking personal income and expenses with budgeting and data visualization.",
-  //     image: "./assets/finance.jpg",
-  //     category: "web",
-  //     technologies: ["React", "Chart.js", "Node.js"],
-  //     github: "",
-  //     demo: "",
-  //   },
-  //   {
-  //     id: 6,
+  //     id: 7,
   //     title: "Weather Forecast",
   //     description:
   //       "Real-time weather application with beautiful UI showing current conditions and 7-day forecasts.",
@@ -372,11 +372,11 @@ contactForm.addEventListener("submit", async (e) => {
   // Send WhatsApp message directly to the provided number
   const whatsappText = encodeURIComponent(
     `*New Contact from Portfolio*\n\n` +
-      `*Name :* ${name}\n` +
-      `*Email :* ${email}\n` +
-      `*Project Type :* ${projectType}\n` +
-      `*Budget Range :* ${budgetRange}\n\n` +
-      `*Message :*\n${message}`,
+    `*Name :* ${name}\n` +
+    `*Email :* ${email}\n` +
+    `*Project Type :* ${projectType}\n` +
+    `*Budget Range :* ${budgetRange}\n\n` +
+    `*Message :*\n${message}`,
   );
 
   window.open(`https://wa.me/923315348543?text=${whatsappText}`, "_blank");
