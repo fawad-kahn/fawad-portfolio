@@ -672,7 +672,7 @@ console.log(
   "font-size: 16px; color: #8ba3ab;",
 );
 console.log(
-  "%cLooking for a Front-End Developer? Let's connect!",
+  "%cLooking for a Full Stack Developer? Let's connect!",
   "font-size: 14px; color: #02F5A1;",
 );
 console.log(
